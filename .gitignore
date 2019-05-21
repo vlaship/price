@@ -1,0 +1,6 @@
+.gradle
+.idea
+.project
+out
+build
+/**/application.properties
