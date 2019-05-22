@@ -1,6 +1,5 @@
 .gradle
 .idea
-.project
-out
-build
+/**/out
 /**/application.properties
+*.csv
