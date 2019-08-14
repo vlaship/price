@@ -1,3 +1,5 @@
 rootProject.name = 'price'
 include ':downloadcsv'
-include('upload', 'common')
+include ':upload'
+include ':common'
+//include('upload', 'common')
