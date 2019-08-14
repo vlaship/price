@@ -1,2 +1,3 @@
 rootProject.name = 'price'
+include ':downloadcsv'
 include('upload', 'common')
