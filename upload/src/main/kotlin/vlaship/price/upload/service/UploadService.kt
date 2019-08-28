@@ -1,4 +1,4 @@
-package vlaship.price.upload
+package vlaship.price.upload.service
 
 interface UploadService{
 

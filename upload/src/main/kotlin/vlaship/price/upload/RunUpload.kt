@@ -2,6 +2,7 @@ package vlaship.price.upload
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
+import vlaship.price.upload.service.impl.UploadServiceImpl
 
 @SpringBootApplication
 class RunUpload

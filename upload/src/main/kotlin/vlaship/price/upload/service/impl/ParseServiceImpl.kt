@@ -1,8 +1,9 @@
-package vlaship.price.upload
+package vlaship.price.upload.service.impl
 
 import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Component
 import vlaship.price.common.Product
+import vlaship.price.upload.service.ParseService
 import java.io.File
 import java.io.IOException
 import java.math.BigDecimal
@@ -32,7 +33,7 @@ class ParseServiceImpl : ParseService {
                 }.toList()
         } catch (ex: IOException) {
             logger.error("", ex)
-            throw IllegalStateException(ex)
+            throw IOException(ex)
         }
     }
 }
